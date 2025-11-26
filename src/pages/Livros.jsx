@@ -21,22 +21,22 @@ function Livros() {
 
         <div className="galeria-container">
           <figure>
-            <img src="/public/livro1.png" alt="Livro 1" />
+            <img src="/livro1.png" alt="Livro 1" />
             <figcaption>Uma Incrivel Aventura na Selva</figcaption>
           </figure>
 
           <figure>
-            <img src="/public/livro2.png" alt="Livro 2" />
+            <img src="/livro2.png" alt="Livro 2" />
             <figcaption>Juntos ao luar</figcaption>
           </figure>
 
           <figure>
-            <img src="/public/livro3.png" alt="Livro 3" />
+            <img src="/livro3.png" alt="Livro 3" />
             <figcaption>Mistérios da meia-noite</figcaption>
           </figure>
 
           <figure>
-            <img src="/public/livro4.png" alt="Livro 4" />
+            <img src="/livro4.png" alt="Livro 4" />
             <figcaption>O enigma da meia-noite</figcaption>
           </figure>
         </div>
