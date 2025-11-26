@@ -1,11 +1,11 @@
 import React from "react";
-import "./Livros.css"; // Caso prefira, pode adicionar no index.css
+import "./Livros.css"; 
 
 function Livros() {
   return (
     <div className="livros-page">
 
-      {/* --- Título e Texto Descritivo --- */}
+    
       <section className="livros-header">
         <h1>Nosso Catálogo de Livros</h1>
         <p>
@@ -15,7 +15,6 @@ function Livros() {
         </p>
       </section>
 
-      {/* --- Galeria de Imagens --- */}
       <section className="galeria">
         <h2>Galeria de Livros</h2>
 
@@ -42,7 +41,7 @@ function Livros() {
         </div>
       </section>
 
-      {/* --- Tabela de Informações --- */}
+   
       <section className="tabela-livros">
         <h2>Informações dos Livros</h2>
 
@@ -87,7 +86,7 @@ function Livros() {
         </table>
       </section>
 
-      {/* --- Rodapé --- */}
+
       <footer className="footer">
         <p>© 2025 — Bookstore Online | Todos os direitos reservados.</p>
       </footer>
