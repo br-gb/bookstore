@@ -1,42 +1,101 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+.app-container {
+    font-family: Arial, sans-serif;
+    color: #000000;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: hsl(214, 88%, 67%); 
+    color: rgb(0, 0, 0);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.nav-links a {
+    color: rgb(0, 0, 0) 76% 4%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: hwb(212 27% 7%); 
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #5b98f5;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.destaques {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center; 
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap; 
 }
 
 .card {
-  padding: 2em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: left;
+    transition: transform 0.3s;
 }
 
-.read-the-docs {
-  color: #888;
+.card:hover {
+    transform: translateY(-5px); 
+}
+
+.card img {
+    width: 300px;
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.card-info {
+    padding: 15px;
+}
+
+.card-info h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+
+.secao-padrao {
+    padding: 60px 20px;
+    
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
 }
